@@ -84,12 +84,47 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+Author's custom styles
+========================================================================== */
+
+
+
+nav {
+  background-color: #54D3FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.pagesButtons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.5em;
+  width: 100%;
+}
+
+.buttons {
+  border-radius: 50%;
+}
+
+main {
+  background-color: #4293E3 ;
+}
+
+.img {
+  width: 30vw;
+  height: 15vh;
+}
+footer {
+  background-color: #54D3FA;
+}
+
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+Helper classes
+========================================================================== */
 
 /*
  * Hide visually and from screen readers

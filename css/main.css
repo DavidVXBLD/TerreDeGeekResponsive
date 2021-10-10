@@ -87,41 +87,240 @@ textarea {
 Author's custom styles
 ========================================================================== */
 
+p, h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+}
 
+h1, h3 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* ###############################################   NAV   ###################################################### */
 
 nav {
-  background-color: #54D3FA;
+  background-color: #4E75AF;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  height: 10vh;
+  height: 8vh;
+  margin-bottom: 1em;
 }
 
 .pagesButtons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0.5em;
+  margin: 1em 0.2em;
   width: 100%;
+  justify-content: space-evenly; 
 }
 
-.buttons {
-  border-radius: 50%;
+.btn {
+  height: 1em;
+  width: 1em;
 }
+
+.search {
+  display: flex;
+  flex-direction: row;
+  height: 4vh;
+  margin: 0.9em 0.2em;
+}
+
+
+.searchBar {
+  width: 33vw;
+  
+}
+
+/* ###############################################   HEADER   ###################################################### */
+
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/headerBackground.jpg");
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+}
+
+/* ###############################################   MAIN (INDEX)   ###################################################### */
 
 main {
-  background-color: #4293E3 ;
+  background-color: #A1C4F9 ;
+  height: 60vh;
+  margin-bottom: 1em;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
 }
 
 .img {
   width: 30vw;
   height: 15vh;
+  border: 2px solid black;
+  margin: 0.2em ;
 }
+
+.card {
+  
+}
+
+h2 {
+  
+}
+
+/* ###############################################   MAIN (PRODUITS)   ###################################################### */
+
+.produits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgProduits {
+  width: 46vw;
+  height: 23vh;
+  border: 2px solid black;
+  margin: 0.2em ;
+}
+
+.produitsTitle {
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+.price {
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+/* ###############################################   MAIN (ENTREPRISE)   ###################################################### */
+
+.mainEntreprise {
+  height: 70vh;
+}
+
+.entreprise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.video {
+  
+}
+
+.pEntreprise {
+  margin-top: 2.5em;
+}
+
+/* ###############################################   MAIN (PRESTATIONS)   ###################################################### */
+
+.mainPrestations {
+  height: 95vh;
+}
+
+.prestationHeader {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  height: 80%;
+  border: 3px solid black;
+}
+
+.prestationType {
+  width: 45%;
+}
+
+.personInCharge {
+  width: 30%;
+  text-align: center;
+}
+
+.prestationPrice {
+  width: 25%;
+  text-align: center;
+}
+
+th, td {
+  padding: 1em;
+}
+
+/* ###############################################   MAIN (FORMULAIRE)   ###################################################### */
+
+.mainFormulaire {
+  height: 75vh;
+}
+
+form {
+  width: 100%;
+}
+
+form div, select {
+  margin-top: 3vh;
+}
+
+label {
+  width: 80%;
+  text-align: right;
+  margin: 0vh 5vh;
+  font-family: 'Lora', serif;
+}
+
+.formInput, textarea {
+  font: 1em sans-serif;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0vh 5vh;
+}
+
+textarea {
+  vertical-align: top;
+  height: 10vh;
+}
+
+.button {
+  padding-left: 30vw;
+}
+
+
+/* ###############################################   FOOTER   ###################################################### */
+
 footer {
-  background-color: #54D3FA;
+  background-color: #4E75AF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 0.7em;
+  color: white;
 }
 
-
+.infos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
 /* ==========================================================================
 Helper classes
 ========================================================================== */

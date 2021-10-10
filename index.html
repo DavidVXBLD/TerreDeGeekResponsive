@@ -14,6 +14,10 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -22,16 +26,16 @@
   <nav>
     
     <div class="pagesButtons">
-      <a href="index.html"><i class="fas fa-home"></i></a>
-      <a href="produits.html"></a>
-      <a href="entreprise.html"></a>
-      <a href="prestation.html"></a>
-      <a href="formulaire.html"></a>
+      <a href="index.html"><i class="fas fa-home" style="font-size: 1.5em;"></i></a>
+      <a href="produits.html"><i class="fas fa-store" style="font-size: 1.5em;"></i></a>
+      <a href="entreprise.html"><i class="fas fa-address-card" style="font-size: 1.5em;"></i></a>
+      <a href="prestation.html"><i class="fas fa-tools" style="font-size: 1.5em;"></i></a>
+      <a href="formulaire.html"><i class="fas fa-book" style="font-size: 1.5em;"></i></a>
     </div>
     
-    <div>
-      <input type="text">
-      <button>Rechercher</button>
+    <div class="search">
+      <input class="searchBar" type="text">
+      <button><i class="fas fa-search"></i></button>
     </div>
 
   </nav>
@@ -44,27 +48,27 @@
   <!-- ###############################################    MAIN   ###################################################### -->
   <main>
     
-    <section>
+    <section class="product">
       <img class="img" src="img/carteMere.jpeg" alt="Carte mère">
-      <div>
+      <div class="card">
         <h2>Carte mère</h2>
         <p>Description de l'objet blabla</p>
       </div>
       <h4>100€</h4>
     </section>
 
-    <section>
+    <section class="product">
       <img class="img" src="img/carteMere.jpeg" alt="Carte mère">
-      <div>
+      <div class="card">
         <h2>Carte mère</h2>
         <p>Description de l'objet blabla</p>
       </div>
       <h4>100€</h4>
     </section>
 
-    <section>
+    <section class="product">
       <img class="img" src="img/carteMere.jpeg" alt="Carte mère">
-      <div>
+      <div class="card">
         <h2>Carte mère</h2>
         <p>Description de l'objet blabla</p>
       </div>
@@ -75,7 +79,7 @@
   <!-- ###############################################   FOOTER   ###################################################### -->
   <footer>
 
-    <article>
+    <article class="infos">
       <h3>Réseaux Sociaux</h3>
       <a href="https://fr-fr.facebook.com/">Facebook</a>
       <a href="https://twitter.com/">Twitter</a>
@@ -83,12 +87,12 @@
       <a href="https://fr.linkedin.com/">LinkedIn</a>
     </article>
 
-    <article>
+    <article class="infos">
       <h3>Contacts</h3>
       <p>06.07.08.09.10<br/>1 rue Quesaije 01234 Ousa<br/>jsé.po@jtejure.fr</p>
     </article>
 
-    <article>
+    <article class="infos">
       <h3>Mentions Légales</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </article>

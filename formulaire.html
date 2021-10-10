@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!-- ###############################################    NAV   ###################################################### -->
+  <nav>
+    
+    <div class="pagesButtons">
+      <a href="index.html"><i class="fas fa-home" style="font-size: 1.5em;"></i></a>
+      <a href="produits.html"><i class="fas fa-store" style="font-size: 1.5em;"></i></a>
+      <a href="entreprise.html"><i class="fas fa-address-card" style="font-size: 1.5em;"></i></a>
+      <a href="prestation.html"><i class="fas fa-tools" style="font-size: 1.5em;"></i></a>
+      <a href="formulaire.html"><i class="fas fa-book" style="font-size: 1.5em;"></i></a>
+    </div>
+    
+    <div class="search">
+      <input class="searchBar" type="text">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+
+  </nav>
+  <!-- ###############################################   HEADER   ###################################################### -->
+  <header>
+    
+    <h1>Terre de Geek</h1>
+
+  </header>
+  <!-- ###############################################    MAIN   ###################################################### -->
+  <main class="mainFormulaire">
+    
+    <form action=# method="post">
+      
+      <label for="requestObject">Raison du contact:</label>
+      <select class="requestObject" name="requestObject">
+        <option value="Information">Information</option>
+        <option value="Réclamation">Réclamation</option>
+        <option value="Partenariat">Partenariat</option>
+        <option value="Autre">Autre</option>
+      </select>
+      
+      <div>
+        <label for="name">Nom et prénom:</label>
+        <input type="text" class="formInput" name="user_name">
+      </div>
+      
+      <div>
+        <label for="age">Âge :</label>
+        <input type="age" class="formInput" name="user_age">
+      </div>
+
+      <div>
+        <label for="phoneNumber">Numéro de téléphone :</label>
+        <input type="phoneNumber" class="formInput" name="user_phoneNumber">
+      </div>
+
+      <div>
+        <label for="mail">E-mail :</label>
+        <input type="email" class="formInput" name="user_mail">
+      </div>
+      
+      <div>
+        <label for="msg">Message :</label>
+        <textarea class="formInput" name="user_message"></textarea>
+      </div>
+      
+      <div class="button">
+        <button type="submit">Envoyer le message</button>
+      </div>
+    
+    </form>
+
+  </main>
+  <!-- ###############################################   FOOTER   ###################################################### -->
+  <footer>
+
+    <article class="infos">
+      <h3>Réseaux Sociaux</h3>
+      <a href="https://fr-fr.facebook.com/">Facebook</a>
+      <a href="https://twitter.com/">Twitter</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+      <a href="https://fr.linkedin.com/">LinkedIn</a>
+    </article>
+
+    <article class="infos">
+      <h3>Contacts</h3>
+      <p>06.07.08.09.10<br/>1 rue Quesaije 01234 Ousa<br/>jsé.po@jtejure.fr</p>
+    </article>
+
+    <article class="infos">
+      <h3>Mentions Légales</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+  </footer>
+  
+  <script src="https://kit.fontawesome.com/f69a7174c4.js" crossorigin="anonymous"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script>window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')</script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

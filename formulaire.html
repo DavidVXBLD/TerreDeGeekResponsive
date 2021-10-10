@@ -50,41 +50,45 @@
     
     <form action=# method="post">
       
-      <label for="requestObject">Raison du contact:</label>
-      <select class="requestObject" name="requestObject">
-        <option value="Information">Information</option>
-        <option value="Réclamation">Réclamation</option>
-        <option value="Partenariat">Partenariat</option>
-        <option value="Autre">Autre</option>
-      </select>
-      
-      <div>
-        <label for="name">Nom et prénom:</label>
-        <input type="text" class="formInput" name="user_name">
+      <div class="dropDown">
+        <label for="requestObject">Raison du contact:</label>
+        <select class="requestObject" name="requestObject">
+          <option value="Information">Information</option>
+          <option value="Réclamation">Réclamation</option>
+          <option value="Partenariat">Partenariat</option>
+          <option value="Autre">Autre</option>
+        </select>
       </div>
       
-      <div>
-        <label for="age">Âge :</label>
-        <input type="age" class="formInput" name="user_age">
-      </div>
+      <div class="form">
+        <div class="label">
+          <label for="name">Nom et prénom:</label>
+          <input type="text" class="formInput" name="user_name">
+        </div>
+        
+        <div class="label">
+          <label for="age">Âge :</label>
+          <input type="age" class="formInput" name="user_age">
+        </div>
 
-      <div>
-        <label for="phoneNumber">Numéro de téléphone :</label>
-        <input type="phoneNumber" class="formInput" name="user_phoneNumber">
-      </div>
+        <div class="label">
+          <label for="phoneNumber">Numéro de téléphone :</label>
+          <input type="phoneNumber" class="formInput" name="user_phoneNumber">
+        </div>
 
-      <div>
-        <label for="mail">E-mail :</label>
-        <input type="email" class="formInput" name="user_mail">
+        <div class="label">
+          <label for="mail">E-mail :</label>
+          <input type="email" class="formInput" name="user_mail">
+        </div>
+        
+        <div class="label">
+          <label for="msg">Message :</label>
+          <textarea class="formInput" name="user_message"></textarea>
+        </div>
       </div>
       
       <div>
-        <label for="msg">Message :</label>
-        <textarea class="formInput" name="user_message"></textarea>
-      </div>
-      
-      <div class="button">
-        <button type="submit">Envoyer le message</button>
+        <button class="button" type="submit">Envoyer le message</button>
       </div>
     
     </form>
@@ -92,7 +96,7 @@
   </main>
   <!-- ###############################################   FOOTER   ###################################################### -->
   <footer>
-
+    
     <article class="infos">
       <h3>Réseaux Sociaux</h3>
       <a href="https://fr-fr.facebook.com/">Facebook</a>
@@ -108,8 +112,9 @@
 
     <article class="infos">
       <h3>Mentions Légales</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="mentionsLegales">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </article>
+
   </footer>
   
   <script src="https://kit.fontawesome.com/f69a7174c4.js" crossorigin="anonymous"></script>
